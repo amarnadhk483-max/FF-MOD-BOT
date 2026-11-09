@@ -1,3 +1,6 @@
+import os
+os.system("pip install aiohttp pyrogram tgcrypto requests")
+
 import asyncio
 import sqlite3
 import random
