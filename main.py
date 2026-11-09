@@ -1,5 +1,6 @@
 import os
-os.system("pip install aiohttp pyrogram tgcrypto requests")
+os.system("pip install aiohttp pyrogram tgcrypto requests aiogram")
+
 
 import asyncio
 import sqlite3
