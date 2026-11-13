@@ -715,7 +715,7 @@ def main_menu_kb(user_id: Optional[int] = None) -> InlineKeyboardMarkup:
     ])
     kb.inline_keyboard.append([
         InlineKeyboardButton(
-            text="Tutorials", callback_data="menu_how_to",
+            text="Download Hack", callback_data="menu_how_to",
             icon_custom_emoji_id=get_emoji_icon("tutorial"),
             style="success"
         ),
