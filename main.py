@@ -1780,7 +1780,7 @@ async def tutorial_system(call: CallbackQuery):
     video_link = video_link_query[0] if video_link_query and video_link_query[0] != 'None' else None
     text = (f"{get_emoji('tutorial')} <b><u>— TUTORIALS & GUIDE —</u></b> {get_emoji('tutorial')}\n\n1️⃣ Add funds via <b>Add Balance</b>\n2️⃣ Navigate to <b>Product Store</b>\n3️⃣ Choose your desired Panel and Package validity.\n4️⃣ The Key and Installation APK link will be instantly provided.")
     kb = InlineKeyboardMarkup(inline_keyboard=[])
-    if video_link: kb.inline_keyboard.append([InlineKeyboardButton(text="Watch Full Video Tutorial", url=video_link, icon_custom_emoji_id=get_emoji_icon("tutorial"), style="primary")])
+    if video_link: kb.inline_keyboard.append([InlineKeyboardButton(text="Download Hack", url=video_link, icon_custom_emoji_id=get_emoji_icon("tutorial"), style="primary")])
     kb.inline_keyboard.append([InlineKeyboardButton(text="BACK", callback_data="back_main", icon_custom_emoji_id=get_emoji_icon("back"), style="danger")])
     await call.message.edit_text(text, reply_markup=kb, parse_mode='HTML')
 
